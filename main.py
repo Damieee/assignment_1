@@ -26,7 +26,7 @@ def write_to_txt(links):
             f.write(f"{link}\n")
 
 if __name__ == "__main__":
-    website_url = "https://www.foxnews.com/"
+    website_url = "https://www.foxbusiness.com/technology/amazon-launches-ai-generated-product-review-summaries"
     scraped_links = scrape_links(website_url)
     write_to_txt(scraped_links)
     
